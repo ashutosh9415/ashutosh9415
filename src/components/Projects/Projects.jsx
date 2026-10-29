@@ -2,6 +2,27 @@ import { useState } from "react";
 
 const projects = [
     {
+        title: "ExamNotesAI",
+        category: "fullstack",
+        description:
+            "An AI-powered exam notes generator that creates organized study notes, quick revision summaries, diagrams, and charts using AI.",
+        tech: "React • Node.js • Express • MongoDB • Gemini API",
+        icon: "📚",
+        github: "https://github.com/ashutosh9415/1.ExamNotesAI",
+        demo: "https://one-examnotesaiclient-j3aq.onrender.com",
+    },
+
+    {
+        title: "FoodRush",
+        category: "fullstack",
+        description:
+            "A full-stack food delivery platform with food browsing, cart and orders, role-based dashboards, online payments, and real-time delivery tracking.",
+        tech: "React • Node.js • Express • MongoDB • Socket.IO",
+        icon: "🍔",
+        github: "https://github.com/ashutosh9415/FoodRush",
+        demo: "https://foodrush-client.vercel.app/",
+    },
+    {
         title: "Password Manager",
         category: "fullstack",
         description:
